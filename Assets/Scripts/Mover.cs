@@ -4,11 +4,6 @@ public class Mover : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 10f;
 
-    private void Start()
-    {
-
-    }
-
     private void Update()
     {
         MovePlayer();
